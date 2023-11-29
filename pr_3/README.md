@@ -50,9 +50,13 @@ token=cl0ki90dkej0009e49sg, type=password-authentication
 ```
 ## Выполнение команд
 “pwd” - выводит полный путь от корневого каталога к текущему рабочему каталогу
+
 “ip a” - информация о подключениях хост
+
 “ls -la” - отображает все файлы в директории включая скрытые
+
 “cat /etc/shadow“ - отображает содержимое файла “shadow”
+
 ![image](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/ec986fa9-d587-407e-915e-14e3e5e1aab5)
 
 ## Telnet
@@ -65,18 +69,25 @@ token=cl0ki90dkej0009e49sg, type=password-authentication
 ```
 ## Выполнение команд
 display arp interface GigabitEthernet 0/0/1 – ARP записи, относящиеся к указанному интерфейсу
+
 display ip vpn-instance - отображает конфигурацию сервера VPN
+
 display arp - все ARP записи
+
 display session limit vpn-instance vpna – количество возможных подключений к VPN
+
 display snmp-server arp-sync table – ARP записи, синхронизированные через SNMP
 
 ![image](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/db425335-4755-4de0-9eb0-96e5aa79e1d5)
 
 ## Http
-Переход по оставленным в открытом доступе страницам
-robots.txt
+
+robots.txt - Переход по оставленным в открытом доступе страницам
+
 login.php - страница логина
+
 admin.php - страница админ панели
+
 sitemap.xml - карта сайта
 
 ![image](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/25c3f49a-8225-45e4-b7de-7ec927b20453)
@@ -84,10 +95,13 @@ sitemap.xml - карта сайта
 ## Redis
 Команды
 INFO – информация о базе данны
-GET admin - возвращение значения по ключу admin - вероятно вся информация о
-пользователе
+
+GET admin - возвращение значения по ключу admin - вероятно вся информация о пользователе
+
 CONFIG GET * - используется для чтения параметров конфигурации Redis
+
 KEYS * - возвращение всех ключей из базы
+
 CLIENT LIST - возвращение информацию и статистику о клиентских подключениях
 
 ![image](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/cb8c7de1-b054-4634-9fd5-47bdaefc84ad)
@@ -99,10 +113,15 @@ FTP
 
 Выполняемые команды
 FEAT – показывает дополнительные команды, поддерживаемые сервером
+
 APPE /exploit.sh – загружает файл exploit.sh
+
 PWD – получает имя текущего каталога
+
 STOR /etc/passwd – заменяет файл passwd на хосте
+
 HELP - выводит команды FTP
+
 LIST -l – выводит список файлов
 
 ![image](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/d081427f-f68f-473a-aefd-764079ac03a5)
