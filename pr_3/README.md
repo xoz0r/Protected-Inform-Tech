@@ -64,8 +64,7 @@ telnet.sessionid=cl0kj98dkej0009e49v0, telnet.username=root,
 token=cl0ki90dkej0009e49sg, type=password-authentication
 ```
 ## Выполнение команд
-display arp interface GigabitEthernet 0/0/1 – ARP записи, относящиеся к указанному
-интерфейсу
+display arp interface GigabitEthernet 0/0/1 – ARP записи, относящиеся к указанному интерфейсу
 display ip vpn-instance - отображает конфигурацию сервера VPN
 display arp - все ARP записи
 display session limit vpn-instance vpna – количество возможных подключений к VPN
