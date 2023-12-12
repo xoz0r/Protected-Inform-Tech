@@ -21,6 +21,9 @@
 ![SQL](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/ffd10329-06fd-4230-b539-87c5e0b6269f)
 
 ## XSS reflected
+
+межсайтовый скриптинг
+
 Уязвимость дает возможность выполнения произвольного JavaScript-кода в браузере жертвы в контексте вашего сайта.
 
 ![xss](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/ac0c459f-868d-46f0-b5c9-0321b482d2f2)
