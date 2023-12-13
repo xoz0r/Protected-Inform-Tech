@@ -40,7 +40,7 @@ docker-compose logs -f
 Наблюдаем за действиями злоумышленника, которые выводит Honeypot
 
 # Посмотрим активность злоумышленника через логи 
-## SSH
+## SSH 22
 подключение по кредам root/root
 ```
 honeypot_1 | services > ssh > category=ssh, date=2023-10-31
@@ -59,7 +59,7 @@ token=cl0ki90dkej0009e49sg, type=password-authentication
 
 ![image](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/ec986fa9-d587-407e-915e-14e3e5e1aab5)
 
-## Telnet
+## Telnet 23
 подключение по кредам root/root
 ```
 honeypot_1 | services > telnet > category=telnet, date=2023-10-31
@@ -80,7 +80,7 @@ display snmp-server arp-sync table – ARP записи, синхронизир�
 
 ![image](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/db425335-4755-4de0-9eb0-96e5aa79e1d5)
 
-## Http
+## Http 80
 Переход по оставленным в открытом доступе страницам
 
 robots.txt
@@ -93,7 +93,10 @@ sitemap.xml - карта сайта
 
 ![image](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/25c3f49a-8225-45e4-b7de-7ec927b20453)
 
-## Redis
+## Redis 6379
+
+Redis: Redis является открытым и масштабируемым хранилищем данных, используемым для хранения структурированных данных, таких как ключи-значения, списки, множества и т.д.
+
 Команды
 INFO – информация о базе данны
 
@@ -107,7 +110,7 @@ CLIENT LIST - возвращение информацию и статистик�
 
 ![image](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/cb8c7de1-b054-4634-9fd5-47bdaefc84ad)
 
-FTP
+FTP 21
 Подключение по кредам anonymous/anonymous
 
 ![image](https://github.com/xoz0r/Protected-Inform-Tech/assets/145142526/d2a31f93-4295-42e7-8807-4a8b9d1f347a)
